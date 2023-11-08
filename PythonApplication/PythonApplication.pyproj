@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>846ee8c6-df77-4348-b56e-7ae5843b1424</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tuples.py</StartupFile>
+    <StartupFile>Ranges.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,11 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Dictionary.py" />
     <Compile Include="Int.py" />
     <Compile Include="Bool.py" />
     <Compile Include="Collections.py" />
     <Compile Include="Matrices.py" />
     <Compile Include="Operators.py" />
+    <Compile Include="Ranges.py" />
     <Compile Include="Tuples.py" />
     <Compile Include="TypeConversions.py" />
   </ItemGroup>
