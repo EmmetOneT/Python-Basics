@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>846ee8c6-df77-4348-b56e-7ae5843b1424</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Operators.py</StartupFile>
+    <StartupFile>Tuples.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,10 @@
   <ItemGroup>
     <Compile Include="Int.py" />
     <Compile Include="Bool.py" />
+    <Compile Include="Collections.py" />
+    <Compile Include="Matrices.py" />
     <Compile Include="Operators.py" />
+    <Compile Include="Tuples.py" />
     <Compile Include="TypeConversions.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
