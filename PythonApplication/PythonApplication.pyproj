@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>846ee8c6-df77-4348-b56e-7ae5843b1424</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Loops.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Classes.py" />
     <Compile Include="Conditionals.py" />
     <Compile Include="Dictionary.py" />
     <Compile Include="If.py" />
@@ -30,6 +32,7 @@
     <Compile Include="Loops.py" />
     <Compile Include="Matrices.py" />
     <Compile Include="Operators.py" />
+    <Compile Include="Parameters.py" />
     <Compile Include="Ranges.py" />
     <Compile Include="Tuples.py" />
     <Compile Include="TypeConversions.py" />
